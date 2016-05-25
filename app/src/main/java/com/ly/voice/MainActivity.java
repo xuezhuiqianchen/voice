@@ -20,7 +20,7 @@ import com.iflytek.cloud.SpeechUtility;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private TextView tvStart, tvStop, tvResult ;
-    private SpeechRecognizer mIat;
+    private SpeechRecognizer mIat ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
